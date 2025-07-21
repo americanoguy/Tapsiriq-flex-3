@@ -1,0 +1,30 @@
+@font-face {
+    src: url(../Fonts/Poppins-Regular.ttf);
+    font-family: poppinsregular;
+}
+#mainheading{
+    text-align: center;
+    font-family: poppinsregular;
+    color: orangered;
+}
+body{
+    background-image: url(https://www.jedacademy.az/front/img/bg-img-2.png);
+}
+h1{
+    color: blue;
+}
+.blocks{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.block{
+    font-family: poppinsregular;
+    background-color: white;
+    border: 2px solid rgb(158, 156, 156);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    color: blue;
+    width: 300px;
+}
